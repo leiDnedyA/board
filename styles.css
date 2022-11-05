@@ -93,6 +93,7 @@ canvas:active {
     margin-right: auto;
     height: 50px;
   }
+
   canvas {
     background: white;
     margin-top: 0px;
@@ -100,7 +101,7 @@ canvas:active {
     height: 78vh;
     cursor: grabbing;
   }
-  
+
   .canvas-container button {
     position: relative;
     right: -90px;
@@ -123,6 +124,19 @@ canvas:active {
   display: inline-block;
   font-size: 20px;
   background: linear-gradient(to left, purple, rgb(187, 62, 187));
+  border-radius: 15px;
+  width: 100%;
+}
+
+.utility-button .undo {
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  background: linear-gradient(to left, rgb(134, 0, 0), red);
   border-radius: 15px;
   width: 100%;
 }
