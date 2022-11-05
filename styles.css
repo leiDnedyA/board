@@ -108,13 +108,13 @@ canvas:active {
   }
 }
 
-.clear-download-button button {
+.utility-button button {
   background: unset;
   border: unset;
   cursor: pointer;
 }
 
-.clear-download-button .clear {
+.utility-button .clear {
   border: none;
   color: white;
   padding: 15px 30px;
