@@ -166,7 +166,7 @@ canvas:active {
 }
 
 
-.clear-download-button {
+.utility-button {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
